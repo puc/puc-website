@@ -1,1 +1,2 @@
-# puc-website
+# puc.edu Styles and Scripts
+
