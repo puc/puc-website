@@ -25516,8 +25516,8 @@ border:none;
 	.modal-card-body {
 		height: 250px;
 	}
-	#homecomingRegistration .modal-card-body,
-	#homecomingSabbathLunch .modal-card-body{
+	.modal.alumni .modal-card-body,
+	.modal.alumni .modal-card-body{
 		height: 100% !important;
 	}
 	#popout-admissions-form .modal-card {
