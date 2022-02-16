@@ -6235,7 +6235,8 @@ a.box:active {
 
 .input:not([type='radio']):not([type='checkbox']),
 .textarea,
-.modal #registration-form .section input:not([type='radio']):not([type='checkbox']):not([type='number']){
+.modal #registration-form .section input:not([type='radio']):not([type='checkbox']):not([type='number']),
+.modal #interaction-form .section input:not([type='radio']):not([type='checkbox']):not([type='number']){
   -moz-appearance: none;
   -webkit-appearance: none;
   -webkit-box-align: center;
@@ -6586,7 +6587,8 @@ form fieldset {
 }
 
 .textarea,
-.modal #registration-form .section textarea{
+.modal #registration-form .section textarea,
+.modal #interaction-form .section textarea {
   display: block;
   max-width: 100%;
   min-width: 100%;
@@ -6595,7 +6597,8 @@ form fieldset {
 }
 
 .textarea:not([rows]),
-.modal #registration-form .section textarea{
+.modal #registration-form .section textarea,
+.modal #interaction-form .section textarea{
   max-height: 600px;
   min-height: 120px;
 }
@@ -25757,7 +25760,8 @@ a:hover svg.circle2 .st0 {
 	border: none;
 }
 .sq-form-section > legend,
-.modal #registration-form .section h3 {
+.modal #registration-form .section h3,
+.modal #interaction-form .section h3 {
 	padding-top: 40px;
 	padding-bottom: 10px;
 	color: #1D5830 !important;
@@ -25864,16 +25868,19 @@ right:0;
 	table-layout: unset;
 }
 
-.modal #registration-form .section {
+.modal #registration-form .section,
+.modal #interaction-form .section {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
-.modal #registration-form table {
+.modal #registration-form table,
+.modal #interaction-form .section{
 	width: 100%;
 }
 
-.modal #registration-form .section h3 {
+.modal #registration-form .section h3,
+.modal #interaction-form .section h3{
 	padding-top: 20px;
 }
 
@@ -25882,22 +25889,27 @@ right:0;
 }
 
 .modal #registration-form .state label,
-.modal #registration-form .country label {
+.modal #registration-form .country label,
+.modal #interaction-form .state label,
+.modal #interaction-form .country label{
 	color: #222;
 	font-size: 14px;
 	font-weight: 700;
 }
 
-.modal #registration-form .number {
+.modal #registration-form .number,
+.modal #interaction-form .number{
 	background-color: #fff;
 	border-radius: 0;
 }
 
-.modal #registration-form .number label {
+.modal #registration-form .number label,
+.modal #interaction-form .number label{
 	width: 100%;
 }
 
-.modal #registration-form .btn-group {
+.modal #registration-form .btn-group,
+.modal #interaction-form .btn-group{
 	margin-left: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
